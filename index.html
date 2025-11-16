@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GT Mod Menu</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0d0d0d;
+    color: #fff;
+    scroll-behavior: smooth;
+  }
+
+  header {
+    text-align: center;
+    padding: 80px 20px;
+  }
+
+  header h1 {
+    font-size: 4rem;
+    color: #cc00ff;
+    text-shadow: 0 0 20px #cc00ff;
+    margin-bottom: 20px;
+  }
+
+  header button {
+    padding: 15px 50px;
+    font-size: 1.5rem;
+    border-radius: 25px;
+    border: none;
+    background: #cc00ff;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  header button:hover {
+    opacity: 0.7;
+  }
+
+  header a {
+    color: #cc00ff;
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+
+  section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  section h2 {
+    font-size: 2.5rem;
+    color: #cc00ff;
+    margin-bottom: 20px;
+  }
+
+  section p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+
+  .info-box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+  }
+
+  .info-box {
+    background: rgba(43, 19, 56, 0.7);
+    padding: 25px;
+    width: 250px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+
+  .info-box h3 {
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+
+  .info-box:hover {
+    transform: translateY(-5px);
+  }
+
+  footer {
+    text-align: center;
+    padding: 60px 20px;
+    background: #1a0a28;
+  }
+
+  footer button {
+    padding: 15px 50px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    border: none;
+    background: #cc00ff;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  footer button:hover {
+    opacity: 0.7;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Gorilla Tag Mod Menu</h1>
+  <button onclick="alert('Purchased!')">Buy Now</button>
+  <p><a href="#features">Features</a></p>
+</header>
+
+<section id="features">
+  <h2>Features</h2>
+  <div class="info-box-container">
+    <div class="info-box">
+      <h2>Ghost Mode</h2>
+      <h3>Play undetected with advanced stealth options.</h3>
+    </div>
+    <div class="info-box">
+      <h2>Overpowered</h2>
+      <h3>Gain extra abilities and advantages in-game.</h3>
+    </div>
+    <div class="info-box">
+      <h2>QOL Improvements</h2>
+      <h3>Custom UI, stats overlay, and smoother controls.</h3>
+    </div>
+    <div class="info-box">
+      <h2>Community Configs</h2>
+      <h3>Load trusted configurations shared by other players.</h3>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <h2>Get Started</h2>
+  <p>Enhance your Gorilla Tag experience now.</p>
+  <button onclick="alert('Redirecting to Shop!')">Go to Shop</button>
+</footer>
+
+</body>
+</html>
